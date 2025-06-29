@@ -1,29 +1,29 @@
-# 💼 Financial Analytics Dashboard
+# Financial Analytics Dashboard
 
 A professional full-stack web application for financial analysts to visualize, filter, and export transaction data — built with Dockerized backend and an elegant, responsive UI.
 
 ---
 
-## 🌐 Deployed Links
+## Deployed Links
 
 - **Frontend**: [https://financial-dashboard-frontend-mocha.vercel.app](https://financial-dashboard-frontend-mocha.vercel.app)
 - **Backend**: [https://financial-dashboard-z0nq.onrender.com](https://financial-dashboard-z0nq.onrender.com)
 
 ---
 
-## 🎥 Demo Video
+##  Demo Video
 
-[📽️ Watch the Demo](#) <!-- Replace with actual video link when available -->
+[ Watch the Demo](#) <!-- Replace with actual video link when available -->
 
 ---
 
-## ✨ Features
+## Features
 
-### ✅ Authentication
+###  Authentication
 - JWT-based login/signup system
 - Secure protected API endpoints
 
-### 📊 Dashboard
+###  Dashboard
 - Revenue vs Expense charts using **Recharts**
 - Pie charts in analytics
 - Separate pages for:
@@ -42,23 +42,23 @@ A professional full-stack web application for financial analysts to visualize, f
   - Top Expense Months
 - Fully responsive dashboard
 
-### 📁 Transactions Table
+###  Transactions Table
 - Paginated, searchable, and responsive
 - **Multi-field Filtering**: Date, Category, Amount, Status
 - **Live Search**: Implemented with **Rebounce**
 - **Sorting**: Clickable column headers with indicators
 
-### 📄 CSV Export System
+###  CSV Export System
 - Modal to configure desired columns
 - CSV auto-download via browser
 - Clean, properly formatted export
 
-### 🚨 Error Handling
+###  Error Handling
 - Alert chips for real-time feedback on errors (API, export, validation)
 
 ---
 
-## 🧩 Frontend Tech Stack
+##  Frontend Tech Stack
 
 - **Framework**: React.js (v19) + TypeScript
 - **Build Tool**: Vite (fast dev & optimized build)
@@ -78,7 +78,7 @@ A professional full-stack web application for financial analysts to visualize, f
 
 ---
 
-## 🔧 Backend Tech Stack
+##  Backend Tech Stack
 
 - **Language**: TypeScript (Node.js runtime)
 - **Framework**: Express.js (v5)
@@ -94,7 +94,7 @@ A professional full-stack web application for financial analysts to visualize, f
 
 ---
 
-## 📡 API Endpoints
+##  API Endpoints
 
 > Base URL: `https://financial-dashboard-z0nq.onrender.com/api`
 
@@ -115,16 +115,16 @@ Edit
 
 ---
 
-## 🐳 Docker Setup (Backend Only)
+##  Docker Setup (Backend Only)
 
-### 🧱 Prerequisites
+###  Prerequisites
 - Docker installed on your machine: [Install Docker](https://docs.docker.com/get-docker/)
 - A `.env` file with:
 PORT=5000
 MONGO_URI=<your_mongo_connection_string>
 JWT_SECRET=<your_jwt_secret>
 
-🛠 Setup Instructions
+Setup Instructions
 1. Clone the repository and navigate to backend:
 ```bash
 git clone https://github.com/your-username/financial-dashboard.git
@@ -135,23 +135,19 @@ docker run -p 5000:5000 --env-file .env financial-backend
 Your backend will now be accessible at:
 http://localhost:5000
 
-💻 Local Setup Instructions
-🧱 Prerequisites
+### Local Setup Instructions
+Prerequisites
 Ensure the following are installed on your system:
 
 Node.js (v18+ recommended)
-```
-npm
-```
 MongoDB (local or MongoDB Atlas)
-
 Docker (only if you're using the containerized backend)
 Git
 
-🚀 Frontend Setup
+Frontend Setup
 1. Navigate to the frontend directory:
 ```
-cd financial-dashboard/client
+cd financial-dashboard/frontend
 ```
 2. Install dependencies:
 ```
@@ -164,7 +160,7 @@ npm run dev
 Frontend will run at:
 http://localhost:5173
 
-⚙️ Backend (Without Docker)
+### Backend (Without Docker)
 1. Navigate to backend folder:
 ```
 cd financial-dashboard/server
