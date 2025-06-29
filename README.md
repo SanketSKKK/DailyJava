@@ -71,7 +71,6 @@ A professional full-stack web application for financial analysts to visualize, f
 - **Charts**: Recharts
 - **HTTP Client**: Axios
 - **Live Search**: Lodash Debounce
-- **Date Handling**: Moment Timezone
 - **Toasts/Alerts**: React Toastify
 - **Icons**: MUI Icons + Ant Design Icons
 - **Linting & Quality**:
