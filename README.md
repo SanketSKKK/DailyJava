@@ -8,6 +8,7 @@ A professional full-stack web application for financial analysts to visualize, f
 
 - **Frontend**: [https://financial-dashboard-frontend-mocha.vercel.app](https://financial-dashboard-frontend-mocha.vercel.app)
 - **Backend**: [https://financial-dashboard-z0nq.onrender.com](https://financial-dashboard-z0nq.onrender.com)
+- - **Postman link**: [https://www.postman.com/sanket3921/workspace/sanket/collection/24738996-dae72959-b5de-4b7a-b498-f7ef3b258ed6?action=share&creator=24738996&active-environment=24738996-b7d2c08c-7e44-43da-a273-f26267f5d823](https://www.postman.com/sanket3921/workspace/sanket/collection/24738996-dae72959-b5de-4b7a-b498-f7ef3b258ed6?action=share&creator=24738996&active-environment=24738996-b7d2c08c-7e44-43da-a273-f26267f5d823)
 
 ---
 
