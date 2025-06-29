@@ -124,30 +124,14 @@ PORT=5000
 MONGO_URI=<your_mongo_connection_string>
 JWT_SECRET=<your_jwt_secret>
 
-bash
-Copy
-Edit
-
 🛠 Setup Instructions
 1. Clone the repository and navigate to backend:
-
-bash
-Copy
-Edit
+```bash
 git clone https://github.com/your-username/financial-dashboard.git
 cd financial-dashboard/server
-2. Build the Docker image:
-
-bash
-Copy
-Edit
 docker build -t financial-backend .
-3. Run the container:
-
-bash
-Copy
-Edit
 docker run -p 5000:5000 --env-file .env financial-backend
+```
 Your backend will now be accessible at:
 http://localhost:5000
 
@@ -156,71 +140,45 @@ http://localhost:5000
 Ensure the following are installed on your system:
 
 Node.js (v18+ recommended)
-
+```
 npm
-
+```
 MongoDB (local or MongoDB Atlas)
 
 Docker (only if you're using the containerized backend)
-
 Git
 
 🚀 Frontend Setup
 1. Navigate to the frontend directory:
-
-bash
-Copy
-Edit
+```
 cd financial-dashboard/client
+```
 2. Install dependencies:
-
-bash
-Copy
-Edit
+```
 npm install
+```
 3. Start the development server:
-
-bash
-Copy
-Edit
+```
 npm run dev
+```
 Frontend will run at:
 http://localhost:5173
 
 ⚙️ Backend (Without Docker)
 1. Navigate to backend folder:
-
-bash
-Copy
-Edit
+```
 cd financial-dashboard/server
+```
 2. Install dependencies:
-
-bash
-Copy
-Edit
+```
 npm install
+```
 3. Start the server in development mode:
-
-bash
-Copy
-Edit
+```
 npm run dev
+```
 Backend will run at:
 http://localhost:5000
 
-📫 Postman Collection
-Test all API endpoints using this Postman collection:
-👉 Postman Collection Link <!-- Replace with actual public collection link -->
 
-🧪 Sample Data
-To populate your MongoDB instance with sample data:
 
-1. Use the provided sample-data.json file
-
-2. Run this import command:
-
-bash
-Copy
-Edit
-mongoimport --uri "your-mongodb-uri" --collection transactions --file sample-data.json --jsonArray
